@@ -1,0 +1,173 @@
+body{
+    background-image: url("images/logo.png");
+    background-size: cover;
+}
+
+
+
+.your-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #8d4a31; 
+}
+
+.your-info-section h2 {
+    color: #D9c57a;
+    margin-bottom: 20px;
+}
+
+.your-info-section form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.your-info-section label {
+    color: #D9c57a;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.your-info-section input,
+.your-info-section select,
+.your-info-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.your-info-section select {
+    height: 35px;
+}
+
+.your-info-section textarea {
+    resize: vertical;
+}
+
+.card-info-section {
+    color: #D9c57a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #8d4a31; 
+}
+
+.card-info-section h2 {
+    color: #D9c57a;
+    margin-bottom: 20px;
+}
+
+.card-info-section form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-info-section label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card-info-section input,
+.card-info-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card-info-section select {
+    height: 35px;
+}
+
+.billing-section {
+    color: #D9c57a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #8d4a31; 
+}
+
+.billing-section h2 {
+    margin-bottom: 20px;
+}
+
+.billing-section form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.billing-section label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.billing-section input,
+.billing-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.billing-section select {
+    height: 35px;
+}
+
+
+.your-info-section button,
+.card-info-section button,
+.billing-section button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.your-info-section button:hover,
+.card-info-section button:hover,
+.billing-section button:hover {
+    background-color: #0056b3;
+}
+#donateSubmit {
+    display: block; 
+    margin: 0 auto; 
+    background-color: #D9c57a; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    
+  }
+  a:visited{
+    color:white;
+  }
+  #donateSubmit:hover {
+    background-color: lightblue; 
+  }
+  /* .nav-item {
+    text-decoration: none;
+    color:#D9c57a;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+} */

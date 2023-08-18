@@ -1,0 +1,189 @@
+body {
+    background-color: #8d4a31;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: #D9c57a;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 5px solid #D9c57a;
+  }
+
+  h3{
+    color: #D9c57a;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8d4a31;
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 100; 
+    /* keep the height low so we can see the navbar */
+    height: 10%;
+    border: 5px;
+    border-bottom: 5px solid #D9c57a;
+}
+
+.nav-item {
+    text-decoration: none;
+    color:#D9c57a;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+.logo{
+    
+    margin-right: auto;
+}
+
+header {
+    background-image: url('images/hopefullogo.png');
+    background-size: cover;
+    padding: 20px;
+    background-color: #8d4a31;
+    text-align: center;
+    background-position: center;
+    height: 400px;
+    /* width: 1680px; */
+    
+}
+
+
+
+.homeInfo{
+    
+    padding: 20px;
+    background-color: #8d4a31;
+    text-align: center;
+    height: 500px;
+    /* background-image: url("https://d3i6fh83elv35t.cloudfront.net/static/2022/05/nyc-1024x658.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+ 
+
+.navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.footer {
+    background-color: #8d4a31;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.social-media {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #D9c57a;
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    margin-top: 0;
+}
+
+.social-media a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: block;
+    margin: 5px 0;
+    color: #D9c57a;
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+.homeInfo2{
+display:flex;
+padding:0;
+/* border: 2px solid black; */
+
+justify-content: center;
+/* background-color: #f2f2f2; */
+
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #D9c57a;
+    margin-top: 20px;
+}
+
+
+.g{
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    
+}
+.donatePage{
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 500px;
+    background-color: #8d4a31;
+    
+}
+#donate-btn{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 100px;
+    color: black;
+    background-color: #D9c57a;
+    height:75px;
+    width:1000px;
+    border-radius:10px;
+}
+
+#donate-btn:hover {
+    background-color: #F4D29A; 
+    text-decoration: underline;
+}
+
+    .donoText {
+        height: 100px;
+        display: flex;
+        color: #D9c57a;
+        margin: 100px auto;
+        padding: 30px;
+        border-radius: 50px;
+        text-align: center;
+
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="donate.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar" id="sticky-navbar">
+        <a href="index.html" class="nav-item logo"><img src="images/ourlogo.png"></a>
+        <a href="index.html" class="nav-item" style="color:#D9c57a">Home</a>
+        <a href="about.html" class="nav-item" style="color:#D9c57a">About</a>
+        <a href="data.html" class="nav-item" style="color:#D9c57a">Data</a>
+        <a href="donate.html" class="nav-item" style="color:#D9c57a">Donate</a>
+        <a href="contact.html" class="nav-item" style="color:#D9c57a" >Contact</a>
+    </nav>
+<div class="donoText">
+    <br></br>
+    <h2>Why Donate?</h2>
+
+<ul>
+
+       <li> Impactful Initiatives: Your donation directly supports projects that address the root causes of violence, provide resources for at-risk youth, and create safe spaces for community engagement.</li>
+          <br></br>
+       <li> Amplifying Voices: We're dedicated to sharing stories that often go unheard, bringing attention to the resilience of individuals striving to break the cycle of violence.</li>
+        <br></br>
+       <li>Uniting Communities: Your contribution fosters a sense of togetherness, allowing us to organize events and workshops that encourage dialogue, empathy, and collaboration.</li>
+    </ul>
+    </div>
+    <div class="your-info-section">
+        <h2>Your Information</h2>
+        <form id="your-info-form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="comment">Comments</label>
+            <textarea id="comment" name="comment" rows="4"></textarea>
+            
+        </form>
+    </div>
+    
+    <div class="card-info-section">
+        <h2>Enter Card Information</h2>
+        <form id="card-info-form">
+            <label for="cardholder-name">Cardholder's Name</label>
+            <input type="text" id="cardholder-name" name="cardholder-name" required>
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" required>
+            <label for="expiry">Expiration Date</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+            <label for="cvc">CVC</label>
+            <input type="text" id="cvc" name="cvc" required>
+            <label for="card-type">Card Type</label>
+            <select id="card-type" name="card-type" required>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="amex">American Express</option>
+                <option value="discover">Discover</option>
+                <option value="other">Other</option>
+                
+            </select>
+            
+        </form>
+    </div>
+    
+    <div class="billing-section">
+        <h2>Billing Information</h2>
+        <form id="billing-form">
+           
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" required>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required>
+            <label for="zip-code">Zip Code</label>
+            <input type="text" id="zip-code" name="zip-code" required>
+            
+        </form>
+        <br>
+        <button type="submit" id="donateSubmit"><a href="amount.html" style="text-decoration: none">Submit</a></button>
+    </div>
+            
+           
+
+
+
+
+
+</body>
+</html>

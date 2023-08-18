@@ -1,0 +1,260 @@
+body {
+    background-color: #8d4a31;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+br{
+    line-break: normal;
+    color: gold;
+}
+h1{
+    color: #D9c57a;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 5px solid #D9c57a;
+  }
+
+  h3{
+    color: #D9c57a;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8d4a31;
+    padding: 10px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 100; 
+    /* keep the height low so we can see the navbar */
+    height: 10%;
+    border: 5px;
+    border-bottom: 5px solid #D9c57a;
+}
+
+.nav-item {
+    text-decoration: none;
+    color:#D9c57a;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+.logo{
+    /* background-image: url("images/ourlogo.png"); */
+    margin-right: auto;
+}
+
+header {
+    background-image: url('images/hopefullogo.png');
+    background-size: cover;
+    padding: 20px;
+    background-color: #8d4a31;
+    text-align: center;
+    background-position: center;
+    height: 400px;
+    width: 1680px;
+    
+}
+/* #chart_div{
+    width: 400px;
+    height: 215px;
+    text-align: left;
+    padding: 5px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+} */
+#poke_stats div {
+    height: 20px;
+    margin: 5px 0;
+    padding: 5px;
+    text-shadow: 2px 2px #000000;
+    transition: 0.25s;
+}
+/* #poke_stats {
+    width: 400px;
+    height: 215px;
+    text-align: left;
+    padding: 5px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+} */
+#hp {
+    color: white;
+    width: 272px;
+    background-color: #00ff00;
+}
+
+#atk {
+    color: white;
+    width: 220px;
+    background-color: #ff0000;
+}
+
+#def {
+    color: white;
+    width: 220px;
+    background-color: #0000ff;
+}
+
+#sp_atk {
+    color: white;
+    width: 200px;
+    background-color: #ff8800;
+}
+
+#sp_def {
+    color: white;
+    width: 200px;
+    background-color: #8800ff;
+}
+
+#spd {
+    color: white;
+    width: 168px;
+    background-color: #00ffff;
+}
+#staten{
+display: none;
+justify-content: center;
+color: gold;
+font-size: 20px;
+text-decoration: green overline;
+margin: 7px;
+border: 10px;
+border-color: #000000;
+border-radius: 10px;
+}
+#brook{
+display: block;
+justify-content: center;
+color: gold;
+font-size: 20px;
+text-decoration: blue overline;
+margin: 7px;
+border: 10px;
+border-color: #000000;
+border-radius: 10px;
+}
+#man{
+display: none;
+justify-content: center;
+color: gold;
+font-size: 20px;
+text-decoration: purple overline;
+margin: 7px;
+border: 10px;
+border-color: #000000;
+border-radius: 10px;
+}
+#brox{
+display: none;
+justify-content: center;
+color: gold;
+font-size: 20px;
+text-decoration: yellow overline;
+margin: 7px;
+border: 10px;
+border-color: #000000;
+border-radius: 10px;
+}
+#queen{
+display: none;
+justify-content: center;
+color: gold;
+font-size: 20px;
+text-decoration: red overline;
+margin: 7px;
+border: 10px;
+border-color: #000000;
+border-radius: 10px;
+}
+ button{
+    display: inline;
+    justify-content: left;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    transition: 0.25s;
+    background-color: #bbbbbb;
+}
+.footer {
+    background-color: #8d4a31;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.social-media {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #D9c57a;
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    margin-top: 0;
+}
+
+.social-media a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: block;
+    margin: 5px 0;
+    color: #D9c57a;
+    text-decoration: none;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+.homeInfo2{
+display:flex;
+padding:0;
+/* border: 2px solid black; */
+
+justify-content: center;
+/* background-color: #f2f2f2; */
+
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #D9c57a;
+    margin-top: 20px;
+}
+
+
+.g{
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+}

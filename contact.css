@@ -1,0 +1,7 @@
+body{
+    background-color: #8d4a31;
+}
+#logo{
+    display:flex;
+    justify-content: center;
+}
